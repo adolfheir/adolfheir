@@ -25,40 +25,32 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 ### 🤖 AI-Native
 
-把大模型做成能落地的产品与工具。
-
-- **Agent & Skills** — 在 [`@cyh-skill`](https://github.com/cyh-skill) 发布 Claude Agent Skills
-- **Claude Code 生态** — [`claude-wx-tray`](https://github.com/adolfheir/claude-wx-tray) 等自研工具
-- **LLM 工程** — Agent 编排 · MCP 集成 · AI-native 工作流
-
-<img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude" />
-<img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
-<img src="https://img.shields.io/badge/MCP-1a1b27?style=flat-square&logo=anthropic&logoColor=white" alt="MCP" />
-<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+以 AI 为中心重构开发方式——<br/>智能体、技能与大模型工具链,<br/>让工具自己造工具。
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 ### 📊 Data Visualization
 
-把复杂数据变成可交互的画面。
-
-- **可视化大屏** — [`datav-lowcode`](https://github.com/adolfheir/datav-lowcode) 拖拽式低代码大屏
-- **2D 图形引擎** — [`img-label`](https://github.com/adolfheir/img-label) 基于 PixiJS(魔改 L7 框选)
-- **技术** — PixiJS · deck.gl / L7 · D3 · ECharts · WebGL
-
-<img src="https://img.shields.io/badge/PixiJS-E72264?style=flat-square&logo=pixiv&logoColor=white" alt="PixiJS" />
-<img src="https://img.shields.io/badge/deck.gl-1a1b27?style=flat-square&logo=deckgl&logoColor=white" alt="deck.gl" />
-<img src="https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3dotjs&logoColor=white" alt="D3" />
-<img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" alt="WebGL" />
+把复杂数据变成可交互、可感知的画面——<br/>大屏、图形引擎与低代码搭建。
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+<a href="https://github.com/cyh-skill">
+  <img src="https://img.shields.io/badge/🧩%20Claude%20Agent%20Skills-%40cyh--skill-D97757?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=1a1b27" alt="cyh-skill org" />
+</a>
+
+<sub>我发起并维护的开源组织 <a href="https://github.com/cyh-skill"><b>@cyh-skill</b></a> · 为 Claude Code 打造的专注、单一职责技能集</sub>
+
+</div>
 
 ---
 
@@ -73,9 +65,9 @@ const cyh = {
 };
 ```
 
-- 🧩 **Full-stack, end to end** — 从 React 前端一路做到 Go / Rust 系统与工具层。
-- 🛠️ **I build my own tools** — 自研 React 框架（[AF-react](https://github.com/adolfheir/AF-react)，定位同 dva）、tRPC 全栈类型安全模板、Rust 代理 GUI。
-- 🌐 **Networking & desktop tooling** — 沉迷代理 / 内网穿透 / 桌面客户端（xray · frp · nps · Tauri）。
+- 🧩 **Full-stack, end to end** — 从前端一路做到系统与工具层。
+- 🛠️ **I build my own tools** — 框架、模板、桌面工具,能自己造的都自己造。
+- 🌐 **Networking & desktop tooling** — 常年折腾代理、内网穿透与桌面客户端。
 - 📫 **Reach me** — [adolfheir.github.io](http://adolfheir.github.io) · 📍 China
 
 ---
