@@ -171,6 +171,8 @@ const cyh = {
 
 <sub>⭐ From <a href="https://github.com/adolfheir">adolfheir</a> · 造能造东西的工具</sub>
 
+<sub>🤖 This profile README was generated with AI (Claude Code) · 本主页由 AI（Claude Code）生成</sub>
+
 </div>
 
 <!-- profile readme refresh -->
