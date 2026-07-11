@@ -23,20 +23,20 @@
 
 ## 🎯 What I Focus On · 两大主攻方向
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top" align="center">
 
 ### 🤖 AI-Native
 
-以 AI 为中心重构开发方式——<br/>智能体、技能与大模型工具链,<br/>让工具自己造工具。
+以 AI 为中心重构开发方式——智能体、技能与大模型工具链,让工具自己造工具。
 
 </td>
 <td width="50%" valign="top" align="center">
 
 ### 📊 Data Visualization
 
-把复杂数据变成可交互、可感知的画面——<br/>大屏、图形引擎与低代码搭建。
+把复杂数据变成可交互、可感知的画面——大屏、图形引擎与低代码搭建。
 
 </td>
 </tr>
