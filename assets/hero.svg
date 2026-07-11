@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" width="880" height="240" fill="none" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="title" gradientUnits="userSpaceOnUse" x1="260" y1="0" x2="620" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="0.5" stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#f7768e"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-220 0; 220 0; -220 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#3b4261"/>
+      <stop offset="1" stop-color="#7aa2f7"/>
+    </linearGradient>
+    <radialGradient id="hub" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#7aa2f7"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- panel -->
+  <rect x="1" y="1" width="878" height="238" rx="18" fill="#1a1b27" stroke="#2a2e42" stroke-width="1.5"/>
+
+  <!-- title -->
+  <text x="440" y="52" text-anchor="middle" font-size="27" font-weight="800" letter-spacing="5" fill="url(#title)">AI &#215; DATA VISUALIZATION</text>
+  <text x="440" y="76" text-anchor="middle" font-size="12.5" letter-spacing="3" fill="#565f89">agents &#183; skills &#160;&#160; dashboards &#183; engines</text>
+
+  <!-- ===== left: AI agent network ===== -->
+  <g stroke="#3b4261" stroke-width="1.6">
+    <line x1="150" y1="158" x2="95" y2="122"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></line>
+    <line x1="150" y1="158" x2="208" y2="118"><animate attributeName="opacity" values="1;0.4;1" dur="3.4s" repeatCount="indefinite"/></line>
+    <line x1="150" y1="158" x2="92" y2="200"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/></line>
+    <line x1="150" y1="158" x2="214" y2="196"><animate attributeName="opacity" values="1;0.5;1" dur="3.6s" repeatCount="indefinite"/></line>
+    <line x1="150" y1="158" x2="150" y2="104"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.1s" repeatCount="indefinite"/></line>
+    <line x1="150" y1="104" x2="208" y2="118" opacity="0.5"/>
+    <line x1="92" y1="200" x2="214" y2="196" opacity="0.4"/>
+  </g>
+
+  <!-- traveling data pulses along edges -->
+  <circle r="2.6" fill="#7dcfff"><animateMotion dur="2.2s" repeatCount="indefinite" path="M150,158 L208,118"/></circle>
+  <circle r="2.6" fill="#f7768e"><animateMotion dur="2.6s" repeatCount="indefinite" path="M150,158 L92,200"/></circle>
+  <circle r="2.6" fill="#bb9af7"><animateMotion dur="2.4s" repeatCount="indefinite" path="M150,158 L214,196"/></circle>
+  <circle r="2.6" fill="#9ece6a"><animateMotion dur="2.9s" repeatCount="indefinite" path="M150,158 L95,122"/></circle>
+
+  <!-- nodes -->
+  <g filter="url(#glow)">
+    <circle cx="95"  cy="122" r="5" fill="#f7768e"><animate attributeName="r" values="4;6;4" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="208" cy="118" r="5" fill="#7aa2f7"><animate attributeName="r" values="6;4;6" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="92"  cy="200" r="5" fill="#7dcfff"><animate attributeName="r" values="4;6;4" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="214" cy="196" r="5" fill="#9ece6a"><animate attributeName="r" values="6;4;6" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="104" r="4" fill="#bb9af7"><animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="158" r="8" fill="url(#hub)"><animate attributeName="r" values="7;9.5;7" dur="2.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ===== middle: data flow ===== -->
+  <path id="flow" d="M250,158 C360,120 470,196 560,150" stroke="#2a2e42" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <g>
+    <circle r="3" fill="#7aa2f7"><animateMotion dur="3s" repeatCount="indefinite" path="M250,158 C360,120 470,196 560,150"/><animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#bb9af7"><animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M250,158 C360,120 470,196 560,150"/><animate attributeName="opacity" values="0;1;1;0" dur="3s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#7dcfff"><animateMotion dur="3s" begin="2s" repeatCount="indefinite" path="M250,158 C360,120 470,196 560,150"/><animate attributeName="opacity" values="0;1;1;0" dur="3s" begin="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ===== right: growing bar chart ===== -->
+  <g>
+    <line x1="595" y1="212" x2="828" y2="212" stroke="#2a2e42" stroke-width="1.5"/>
+    <rect x="600" y="170" width="24" height="42" rx="3" fill="url(#bar)"><animate attributeName="height" values="30;78;46;62;30" dur="3.2s" repeatCount="indefinite"/><animate attributeName="y" values="182;134;166;150;182" dur="3.2s" repeatCount="indefinite"/></rect>
+    <rect x="632" y="150" width="24" height="62" rx="3" fill="url(#bar)"><animate attributeName="height" values="60;34;80;44;60" dur="3.2s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="y" values="152;178;132;168;152" dur="3.2s" begin="0.2s" repeatCount="indefinite"/></rect>
+    <rect x="664" y="160" width="24" height="52" rx="3" fill="url(#bar)"><animate attributeName="height" values="44;70;30;66;44" dur="3.2s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="y" values="168;142;182;146;168" dur="3.2s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <rect x="696" y="140" width="24" height="72" rx="3" fill="url(#bar)"><animate attributeName="height" values="72;40;58;84;72" dur="3.2s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="y" values="140;172;154;128;140" dur="3.2s" begin="0.6s" repeatCount="indefinite"/></rect>
+    <rect x="728" y="164" width="24" height="48" rx="3" fill="url(#bar)"><animate attributeName="height" values="38;66;82;36;38" dur="3.2s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="y" values="174;146;130;176;174" dur="3.2s" begin="0.8s" repeatCount="indefinite"/></rect>
+    <rect x="760" y="152" width="24" height="60" rx="3" fill="url(#bar)"><animate attributeName="height" values="56;30;72;48;56" dur="3.2s" begin="1s" repeatCount="indefinite"/><animate attributeName="y" values="156;182;140;164;156" dur="3.2s" begin="1s" repeatCount="indefinite"/></rect>
+    <rect x="792" y="176" width="24" height="36" rx="3" fill="url(#bar)"><animate attributeName="height" values="28;62;40;76;28" dur="3.2s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="184;150;172;136;184" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

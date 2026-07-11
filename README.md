@@ -17,6 +17,15 @@
 <img src="https://img.shields.io/badge/Since-2017-7aa2f7?style=flat-square&logo=github" alt="since" />
 <a href="http://adolfheir.github.io"><img src="https://img.shields.io/badge/Blog-adolfheir.github.io-1a1b27?style=flat-square&logo=hexo&logoColor=white" alt="blog" /></a>
 
+<br/><br/>
+
+<a href="https://adolfheir.github.io/agentgraph/" title="Play Agent Network">
+  <img width="100%" src="https://raw.githubusercontent.com/adolfheir/adolfheir/main/assets/hero.svg" alt="Agent Network — click to play" />
+</a>
+
+<a href="https://adolfheir.github.io/agentgraph/"><img src="https://img.shields.io/badge/▶%20Play-Agent%20Network-7aa2f7?style=for-the-badge&logoColor=white&labelColor=1a1b27" alt="Play Agent Network" /></a>
+<sub>点上面横幅或按钮,玩我写的智能体组网小游戏 🎮</sub>
+
 </div>
 
 ---
