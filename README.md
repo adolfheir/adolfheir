@@ -89,25 +89,13 @@ const cyh = {
 <table>
 <tr>
 <td width="50%">
-<a href="https://github.com/adolfheir/tauri-xray">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adolfheir&repo=tauri-xray&theme=tokyonight&hide_border=true" alt="tauri-xray" />
-</a>
-</td>
-<td width="50%">
-<a href="https://github.com/adolfheir/fullstrack-template">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adolfheir&repo=fullstrack-template&theme=tokyonight&hide_border=true" alt="fullstrack-template" />
-</a>
-</td>
-</tr>
-<tr>
-<td width="50%">
 <a href="https://github.com/adolfheir/img-label">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=adolfheir&repo=img-label&theme=tokyonight&hide_border=true" alt="img-label" />
 </a>
 </td>
 <td width="50%">
-<a href="https://github.com/adolfheir/datav-lowcode">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adolfheir&repo=datav-lowcode&theme=tokyonight&hide_border=true" alt="datav-lowcode" />
+<a href="https://github.com/adolfheir/tauri-xray">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adolfheir&repo=tauri-xray&theme=tokyonight&hide_border=true" alt="tauri-xray" />
 </a>
 </td>
 </tr>
@@ -118,6 +106,18 @@ const cyh = {
 </a>
 </td>
 <td width="50%">
+<a href="https://github.com/adolfheir/datav-lowcode">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adolfheir&repo=datav-lowcode&theme=tokyonight&hide_border=true" alt="datav-lowcode" />
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/adolfheir/fullstrack-template">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adolfheir&repo=fullstrack-template&theme=tokyonight&hide_border=true" alt="fullstrack-template" />
+</a>
+</td>
+<td width="50%">
 <a href="https://github.com/adolfheir/AF-react">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=adolfheir&repo=AF-react&theme=tokyonight&hide_border=true" alt="AF-react" />
 </a>
@@ -125,11 +125,11 @@ const cyh = {
 </tr>
 </table>
 
-> **tauri-xray** — Rust + Tauri 打造的 macOS xray 代理 GUI ·
-> **fullstrack-template** — 基于 tRPC 的端到端类型安全全栈模板 ·
 > **img-label** — PixiJS 实现的 2D 图像操作工具（魔改 L7 框选）· [demo](https://img-label.vercel.app) ·
-> **datav-lowcode** — 拖拽式可视化大屏 · [demo](https://datav-lowcode.vercel.app) ·
+> **tauri-xray** — Rust + Tauri 打造的 macOS xray 代理 GUI ·
 > **nps-auth** — Go 编写的 nps 接口封装，支持自定义 auth & 路径 proxy ·
+> **datav-lowcode** — 拖拽式可视化大屏 · [demo](https://datav-lowcode.vercel.app) ·
+> **fullstrack-template** — 基于 tRPC 的端到端类型安全全栈模板 ·
 > **AF-react** — 自研 React 应用框架（定位同 dva）
 
 ---
